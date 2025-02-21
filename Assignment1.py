@@ -1,0 +1,1 @@
+salary=input(int("Please enter your salary for the month"))
