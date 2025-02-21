@@ -1,6 +1,13 @@
-salary=input(float("Please enter your salary for the month: "))
+salary=float(input("Please enter your salary for the month in $: "))
 month=input("Please enter the name of the month: ")
-savingsPercentage=input(float("Please enter the percentage for your savings: "))
-rentPercentage=input(float("Please enter the percentage for your rent: "))
-electricityPercentage=input(float("Please enter the percentage for your electricity: "))
+savingsPercentage=float(input("Please enter the percentage for your savings: "))
+rentPercentage=float(input("Please enter the percentage for your rent: "))
+electricityPercentage=float(input("Please enter the percentage for your electricity: "))
+savings=salary*(savingsPercentage/100)
+print(f"Your savings are {savings} $")
+rent=salary*(rentPercentage/100)
+print(f"Your rent is {rent} $")
+electricity=salary*(electricityPercentage/100)
+print(f"Your electricity cost {electricity} $")
+
 
