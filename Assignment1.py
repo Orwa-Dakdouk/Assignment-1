@@ -9,5 +9,11 @@ rent=salary*(rentPercentage/100)
 print(f"Your rent is {rent} $")
 electricity=salary*(electricityPercentage/100)
 print(f"Your electricity cost {electricity} $")
+spendings=savings + rent + electricity
+remainder= salary - spendings
+print(f"You spent {spendings} $")
+print(f"You have {remainder} $ left")
+
+
 
 
