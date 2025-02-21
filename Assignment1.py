@@ -15,6 +15,7 @@ print(f"You spent {spendings} $")
 print(f"You have {remainder} $ left")
 yearlyPayment= 12*(rent + electricity)
 print(f"You pay {yearlyPayment} $ yearly for rent and electricity")
+print(f"Your salary raised to the power of 2 is {salary**2} $")
 
 
 
