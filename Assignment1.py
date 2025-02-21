@@ -16,6 +16,15 @@ print(f"You have {remainder} $ left")
 yearlyPayment= 12*(rent + electricity)
 print(f"You pay {yearlyPayment} $ yearly for rent and electricity")
 print(f"Your salary raised to the power of 2 is {salary**2} $")
+answer=input("Do you have any extra amount that you take(yes or no): ")
+if answer.lower()=="yes":
+    extraAmount=float(input("Enter the extra amount in $: "))
+    savings=(salary*(savingsPercentage/100)) + extraAmount
+    print(f"Your savings are {savings} $")
+    print("Exiting Program...")
+else:
+    print("Exiting Program...")
+
 
 
 
